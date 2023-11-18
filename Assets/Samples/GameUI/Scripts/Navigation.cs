@@ -12,7 +12,9 @@ using UnityEngine.UI;
 
 public class Navigation : MonoBehaviour{
 
-public GameObject coming_soon_overlay;
+public GameObject coming_soon_overlay.isActive = false;
+
+
 
 public void OpenGeospatialScene()
 {
@@ -22,6 +24,8 @@ Debug.Log("Navigated to gameplay page");
 
 public void OnComingSoonTrigger()
 {
+
+    coming_soon_overlay.SetActive(true);
     float timer = 3.0f;
     timer -= Time.deltaTime;
 
@@ -30,7 +34,7 @@ public void OnComingSoonTrigger()
         coming_soon_overlay.SetActive(false);
     }
 
-    coming_soon_overlay.SetActive(true);
+    
 }
 }
 }
