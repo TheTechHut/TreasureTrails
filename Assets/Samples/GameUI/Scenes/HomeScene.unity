@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44402242, g: 0.49316543, b: 0.5722324, a: 1}
+  m_IndirectSpecularColor: {r: 0.44402185, g: 0.49316466, b: 0.57223153, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -267,7 +267,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 345315053}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d36afc2e6c4b6c744843ffcfa6901e4e, type: 3}
+  m_Script: {fileID: 11500000, guid: 9ddaaed8e6ebcb44b9a651e01b9ab27d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   coming_soon_overlay: {fileID: 0}
@@ -770,7 +770,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: d19ebefc55895ce45ab8b19c6acd57ed, type: 3}
+  m_Texture: {fileID: 2800000, guid: 4d23e35d469778b499dace9450928b19, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -1013,7 +1013,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1996391705}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d36afc2e6c4b6c744843ffcfa6901e4e, type: 3}
+  m_Script: {fileID: 11500000, guid: 9ddaaed8e6ebcb44b9a651e01b9ab27d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   coming_soon_overlay: {fileID: 0}
