@@ -1,14 +1,5 @@
-namespace NaviagtionSpace
-{
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
-using System.Linq;
-using UnityEngine.EventSystems;
-using UnityEngine.UI;
 
 public class Navigation : MonoBehaviour{
 
@@ -37,5 +28,5 @@ public void OnComingSoonTrigger()
     
 }
 }
-}
+
 

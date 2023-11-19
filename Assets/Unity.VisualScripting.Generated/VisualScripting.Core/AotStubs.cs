@@ -584,6 +584,9 @@ namespace Unity.VisualScripting.Generated.Aot
 	// UnityEngine.WindZone.op_Implicit
 	// UnityEngine.WindZone.op_Equality
 	// UnityEngine.WindZone.op_Inequality
+	// Navigation.op_Implicit
+	// Navigation.op_Equality
+	// Navigation.op_Inequality
 	// OnBoarding.op_Implicit
 	// OnBoarding.op_Equality
 	// OnBoarding.op_Inequality
@@ -689,9 +692,6 @@ namespace Unity.VisualScripting.Generated.Aot
 	// TMPro.Examples.WarpTextExample.op_Implicit
 	// TMPro.Examples.WarpTextExample.op_Equality
 	// TMPro.Examples.WarpTextExample.op_Inequality
-	// NaviagtionSpace.Navigation.op_Implicit
-	// NaviagtionSpace.Navigation.op_Equality
-	// NaviagtionSpace.Navigation.op_Inequality
 	// Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController.op_Implicit
 	// Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController.op_Equality
 	// Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController.op_Inequality
@@ -7624,6 +7624,41 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
+		// Navigation.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Navigation_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Navigation.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Navigation_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Navigation.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Navigation_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
 		// OnBoarding.op_Implicit
 		[global::UnityEngine.Scripting.PreserveAttribute()]
 		public static void OnBoarding_op_Implicit()
@@ -8840,41 +8875,6 @@ namespace Unity.VisualScripting.Generated.Aot
 		// TMPro.Examples.WarpTextExample.op_Inequality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
 		public static void TMPro_Examples_WarpTextExample_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// NaviagtionSpace.Navigation.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void NaviagtionSpace_Navigation_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// NaviagtionSpace.Navigation.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void NaviagtionSpace_Navigation_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// NaviagtionSpace.Navigation.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void NaviagtionSpace_Navigation_op_Inequality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
