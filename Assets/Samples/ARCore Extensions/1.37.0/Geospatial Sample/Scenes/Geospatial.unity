@@ -786,7 +786,7 @@ MonoBehaviour:
   TerrainAnchorToggle: {fileID: 809809105}
   RooftopAnchorToggle: {fileID: 565032427}
   InfoPanel: {fileID: 430750537}
-  InfoText: {fileID: 1587000028}
+  InfoText: {fileID: 0}
   SnackBarText: {fileID: 1382347801}
   DebugText: {fileID: 1664493018}
 --- !u!4 &384014292
@@ -814,7 +814,6 @@ GameObject:
   m_Component:
   - component: {fileID: 430750538}
   - component: {fileID: 430750540}
-  - component: {fileID: 430750539}
   - component: {fileID: 430750541}
   m_Layer: 5
   m_Name: InfoPanel
@@ -844,36 +843,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 100}
   m_SizeDelta: {x: 100, y: 360}
   m_Pivot: {x: 0.5, y: 1}
---- !u!114 &430750539
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 430750537}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.078431375, g: 0.078431375, b: 0.078431375, a: 0.74509805}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
 --- !u!222 &430750540
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3604,7 +3573,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1587000027}
   - component: {fileID: 1587000029}
-  - component: {fileID: 1587000028}
+  - component: {fileID: 1587000030}
   m_Layer: 5
   m_Name: InfoText
   m_TagString: Untagged
@@ -3632,7 +3601,15 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 20}
   m_SizeDelta: {x: -140, y: -140}
   m_Pivot: {x: 0.5, y: 0}
---- !u!114 &1587000028
+--- !u!222 &1587000029
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587000026}
+  m_CullTransparentMesh: 0
+--- !u!114 &1587000030
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3641,7 +3618,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1587000026}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -3652,41 +3629,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 28
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 2
-    m_MaxSize: 32
-    m_Alignment: 3
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 1
-    m_LineSpacing: 1
-  m_Text: 'GEOSPATIAL VPS
-
-    LAT/LONG: xxx, xxx
-
-    HorizontalAcc: xxx
-
-    ALTITUDE:
-    xxx
-
-    VerticalAcc: xxx
-
-    HEADINGL: xxx
-
-    HeadingAcc: xxx'
---- !u!222 &1587000029
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1587000026}
-  m_CullTransparentMesh: 0
+  m_Texture: {fileID: 2800000, guid: 770346c33a5abbb49bafbddf91dd4529, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
 --- !u!1 &1664439933
 GameObject:
   m_ObjectHideFlags: 0
