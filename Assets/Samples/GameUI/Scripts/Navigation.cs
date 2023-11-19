@@ -12,7 +12,8 @@ using UnityEngine.UI;
 
 public class Navigation : MonoBehaviour{
 
-public GameObject coming_soon_overlay.isActive = false;
+public GameObject coming_soon_overlay;
+
 
 
 
@@ -24,7 +25,6 @@ Debug.Log("Navigated to gameplay page");
 
 public void OnComingSoonTrigger()
 {
-
     coming_soon_overlay.SetActive(true);
     float timer = 3.0f;
     timer -= Time.deltaTime;
