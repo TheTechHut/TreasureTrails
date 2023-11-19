@@ -15,9 +15,6 @@
 *.wav
 *.gif
 *.ico
-*.jpg
-*.jpeg
-*.png
 *.psd
 *.tga
 *.tif
@@ -38,7 +35,6 @@
 *.mat
 *.meta
 *.prefab
-*.unity
 build/
 Build/
 Library/
